@@ -30,3 +30,29 @@ nav a:hover{
     transition: 0.6s; /* Tiempo de duración de la animación */
 }
 
+.card img{
+    width: 300px; /* Ancho */
+    height: 300px; /* Alto */
+    object-fit: cover; /* Para que la imagen no se aplaste */
+    border-radius: 20px; /*Bordes redondeados */
+}
+
+.card h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alineación horizontal */
+    gap: 20px; /* Separación del texto y la imagen */
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly; /* Alineación horizontal */
+    gap: 30px; /* Separación entre los elementos */
+    margin-top: 25px; /* Para separar las tarjetas del menú */
+    flex-wrap: wrap;
+}
